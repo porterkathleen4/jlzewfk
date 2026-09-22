@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计内部服务调用超时设置要点
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://wap.clazax.asia/blog/1713928.sHtMl
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://wap.clazax.asia/blog/4745793.sHtMl
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.clazax.asia/blog/8159260.sHtMl
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://wap.clazax.asia/blog/3049248.sHtMl
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://wap.clazax.asia/blog/1524794.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://wap.clazax.asia/blog/4604372.sHtMl
+
+原标题：golang 系统设计监控大盘故障快速定位思路
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://wap.clazax.asia/blog/7038038.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://wap.clazax.asia/blog/8383604.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://wap.clazax.asia/blog/0424803.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://wap.clazax.asia/blog/2924812.sHtMl
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：http://wap.clazax.asia/blog/0783490.sHtMl
+
+原标题：内存泄漏定位分析完整流程
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://wap.clazax.asia/blog/9599680.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://wap.clazax.asia/blog/0405695.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.clazax.asia/blog/6967717.sHtMl
+
+原标题：golang 系统设计 json 解析性能优化实操
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.clazax.asia/blog/0413570.sHtMl
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://wap.clazax.asia/blog/2691683.sHtMl
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://wap.clazax.asia/blog/1645736.sHtMl
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://wap.clazax.asia/blog/5261351.sHtMl
+
+原标题：实战：数据库索引设计，复合索引最佳实践
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：http://wap.clazax.asia/blog/2513513.sHtMl
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://wap.clazax.asia/blog/0424910.sHtMl
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://wap.clazax.asia/blog/0614929.sHtMl
+
+原标题：Practice：数据库分表简单实现方案与代码示例
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://wap.clazax.asia/blog/7485025.sHtMl
+
+原标题：golang docker 部署 prometheus 整套
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.clazax.asia/blog/5826846.sHtMl
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://wap.clazax.asia/blog/2945127.sHtMl
+
+原标题：GitHub Markdown 文档语法汇总
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://wap.clazax.asia/blog/5960479.sHtMl
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://wap.clazax.asia/blog/4168369.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.clazax.asia/blog/8592702.sHtMl
+
+原标题：golang 系统设计网关请求日志 traceId 透传实现
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://wap.clazax.asia/blog/3756070.sHtMl
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://wap.clazax.asia/blog/4072368.sHtMl
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://wap.clazax.asia/blog/4857348.sHtMl
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.clazax.asia/blog/8469135.sHtMl
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.clazax.asia/blog/3682580.sHtMl
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://wap.clazax.asia/blog/5828037.sHtMl
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.clazax.asia/blog/5379147.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://wap.clazax.asia/blog/1472514.sHtMl
+
+原标题：git rebase 整理提交历史实操
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://wap.clazax.asia/blog/7879135.sHtMl
+
+原标题：运维笔记：备份策略数据库定时备份脚本
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://wap.clazax.asia/blog/5262468.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://wap.clazax.asia/blog/2593573.sHtMl
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://wap.clazax.asia/blog/2582795.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://wap.clazax.asia/blog/0727070.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 集成测试启动测试数据库
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://wap.clazax.asia/blog/3238180.sHtMl
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://wap.clazax.asia/blog/3045869.sHtMl
+
+原标题：消息消费重试次数限制防爆炸
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://wap.clazax.asia/blog/7580503.sHtMl
+
+原标题：golang go test 覆盖率统计实操
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.clazax.asia/blog/5828145.sHtMl
+
+原标题：DevOps：GitLabCI完整流水线配置示例
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://wap.clazax.asia/blog/8580570.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://wap.clazax.asia/blog/0715149.sHtMl
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://wap.clazax.asia/blog/0361137.sHtMl
+
+原标题：极简方式搭建个人技术文档站点
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://wap.clazax.asia/blog/8594584.sHtMl
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://wap.clazax.asia/blog/2423536.sHtMl
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://wap.clazax.asia/blog/4161392.sHtMl
+
+原标题：服务健康检查告警监控体系
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.clazax.asia/blog/0424512.sHtMl
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://wap.clazax.asia/blog/3602681.sHtMl
+
+原标题：golang docker 镜像构建最佳实践
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://wap.clazax.asia/blog/7472351.sHtMl
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://wap.clazax.asia/blog/2925928.sHtMl
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://wap.clazax.asia/blog/1924818.sHtMl
+
+原标题：新手指南：读懂项目构建脚本作用
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://wap.clazax.asia/blog/7417917.sHtMl
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.clazax.asia/blog/5155152.sHtMl
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://wap.clazax.asia/blog/1711703.sHtMl
+
+原标题：架构笔记：分布式事务方案对比与业务取舍
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://wap.clazax.asia/blog/0613713.sHtMl
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://wap.clazax.asia/blog/9260251.sHtMl
+
+原标题：golang 系统设计开源项目贡献指南 contributing
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://wap.clazax.asia/blog/6938348.sHtMl
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://wap.clazax.asia/blog/4927818.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://wap.clazax.asia/blog/3505735.sHtMl
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://wap.clazax.asia/blog/3934525.sHtMl
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://wap.clazax.asia/blog/9605626.sHtMl
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://wap.clazax.asia/blog/1894936.sHtMl
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://wap.clazax.asia/blog/9613804.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://wap.clazax.asia/blog/6373392.sHtMl
+
+原标题：Performance：避免大报文，减少内存占用优化
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.clazax.asia/blog/6368361.sHtMl
+
+原标题：golang 系统设计配置中心核心能力梳理讲解
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://wap.clazax.asia/blog/0713903.sHtMl
+
+原标题：配置外部化线上部署防错误
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://wap.clazax.asia/blog/4162281.sHtMl
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://wap.clazax.asia/blog/5273563.sHtMl
+
+原标题：跨平台换行符统一异常修复
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://wap.clazax.asia/blog/1925026.sHtMl
+
+原标题：nodejs 消息队列消费服务开发
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://wap.clazax.asia/blog/6925613.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：http://wap.clazax.asia/blog/1714935.sHtMl
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://wap.clazax.asia/blog/4047248.sHtMl
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://wap.clazax.asia/blog/5940036.sHtMl
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://wap.clazax.asia/blog/6335028.sHtMl
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://wap.clazax.asia/blog/5267857.sHtMl
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.clazax.asia/blog/8593847.sHtMl
+
+三、实战开发｜Practice
+原标题：简易网关请求路由过滤模拟
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://wap.clazax.asia/blog/9603036.sHtMl
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.clazax.asia/blog/6927135.sHtMl
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://wap.clazax.asia/blog/9613816.sHtMl
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://wap.clazax.asia/blog/7594626.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.clazax.asia/blog/2525025.sHtMl
+
+原标题：golang 系统设计 ide 配置 go 开发效率提升技巧
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://wap.clazax.asia/blog/8157248.sHtMl
+
+原标题：多版本开发环境共存配置
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://wap.clazax.asia/blog/3057135.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://wap.clazax.asia/blog/1723468.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://wap.clazax.asia/blog/8189470.sHtMl
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://wap.clazax.asia/blog/0612350.sHtMl
+
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://wap.clazax.asia/blog/6378180.sHtMl
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://wap.clazax.asia/blog/4940079.sHtMl
+
+原标题：golang kafka 同步异步消费对比
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://wap.clazax.asia/blog/6383403.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.clazax.asia/blog/4035797.sHtMl
+
+原标题：golang 项目 docker compose 本地调试
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.clazax.asia/blog/3067736.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://wap.clazax.asia/blog/3045624.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：http://wap.clazax.asia/blog/4055026.sHtMl
+
+原标题：优化实践：批量操作性能优化，减少数据库IO
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://wap.clazax.asia/blog/8517969.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://wap.clazax.asia/blog/4858357.sHtMl
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://wap.clazax.asia/blog/4781212.sHtMl
+
+原标题：golang k8s configmap secret 配置
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.clazax.asia/blog/4760792.sHtMl
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://wap.clazax.asia/blog/1813414.sHtMl
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://wap.clazax.asia/blog/6935143.sHtMl
+
+原标题：优化实践：多级缓存减少下游服务调用压力
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://wap.clazax.asia/blog/7497957.sHtMl
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://wap.clazax.asia/blog/6978035.sHtMl
+
+原标题：前端骨架屏提升页面体验
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://wap.clazax.asia/blog/4613814.sHtMl
+
+原标题：开发记录：文件锁实现多进程互斥实践
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://wap.clazax.asia/blog/0724636.sHtMl
+
+原标题：golang 协程 panic 捕获防止崩溃
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://wap.clazax.asia/blog/7528069.sHtMl
+
+原标题：golang 数据库连接泄露排查
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：http://wap.clazax.asia/blog/4936796.sHtMl
+
+原标题：golang 雪花 id 重复问题排查
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://wap.clazax.asia/blog/3040240.sHtMl
+
+原标题：nodejs 数据库连接池配置调优
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://wap.clazax.asia/blog/7491693.sHtMl
+
+原标题：macOS 脚本执行权限开启
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.clazax.asia/blog/0302304.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://wap.clazax.asia/blog/3156858.sHtMl
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.clazax.asia/blog/1935033.sHtMl
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://wap.clazax.asia/blog/3015804.sHtMl
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://wap.clazax.asia/blog/4746604.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://wap.clazax.asia/blog/6924815.sHtMl
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://wap.clazax.asia/blog/7591804.sHtMl
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://wap.clazax.asia/blog/4158950.sHtMl
+
+原标题：Git 误删提交代码恢复找回
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://wap.clazax.asia/blog/5202353.sHtMl
+
+四、架构设计｜Architecture
+原标题：接口签名验签完整安全方案
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://wap.clazax.asia/blog/4712707.sHtMl
+
+原标题：golang 系统设计内网外网服务隔离方案
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://wap.clazax.asia/blog/6047814.sHtMl
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://wap.clazax.asia/blog/6057825.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://wap.clazax.asia/blog/9341222.sHtMl
+
+原标题：内存溢出问题现象识别排查
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://wap.clazax.asia/blog/3890033.sHtMl
+
+原标题：分布式事务最终一致性实现
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://wap.clazax.asia/blog/6909212.sHtMl
+
+原标题：实践：灰度流量切分简易实现方案
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://wap.clazax.asia/blog/8921446.sHtMl
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://wap.clazax.asia/blog/5709111.sHtMl
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://wap.clazax.asia/blog/9344466.sHtMl
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.clazax.asia/blog/3789911.sHtMl
+
+原标题：从零搭建简单定时任务demo
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://wap.clazax.asia/blog/7013422.sHtMl
+
+原标题：内存溢出问题现象识别排查
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://wap.clazax.asia/blog/5596786.sHtMl
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://wap.clazax.asia/blog/9477567.sHtMl
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://wap.clazax.asia/blog/8711912.sHtMl
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://wap.clazax.asia/blog/2025814.sHtMl
+
+原标题：入门实践：本地简单代理服务搭建
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://wap.clazax.asia/blog/7157025.sHtMl
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://wap.clazax.asia/blog/0791460.sHtMl
+
+原标题：golang zap 日志按日期切割方案
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://wap.clazax.asia/blog/9279258.sHtMl
+
+?
