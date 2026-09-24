@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：特殊输入字符过滤解析防护
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：m.cpnsxt.asia/Article/details/2834311.sHtML
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：m.cpnsxt.asia/Article/details/8599314.sHtML
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：m.cpnsxt.asia/Article/details/5467576.sHtML
+
+原标题：eslint prettier 代码规范落地
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：m.cpnsxt.asia/Article/details/2152311.sHtML
+
+原标题：Hands‑on：实现WebSocket聊天室完整前后端demo
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：m.cpnsxt.asia/Article/details/5474521.sHtML
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：m.cpnsxt.asia/Article/details/9922026.sHtML
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：m.cpnsxt.asia/Article/details/7695796.sHtML
+
+原标题：golang 系统设计链路追踪核心概念 trace span 讲解
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：m.cpnsxt.asia/Article/details/8356888.sHtML
+
+原标题：记一次字符集编码不一致乱码问题全排查
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：m.cpnsxt.asia/Article/details/5907080.sHtML
+
+原标题：golang redis lua 脚本原子操作
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：m.cpnsxt.asia/Article/details/0234465.sHtML
+
+原标题：Fork 开源项目同步上游代码
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.cpnsxt.asia/Article/details/3251856.sHtML
+
+原标题：分页逻辑错误数据漏查修复
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：m.cpnsxt.asia/Article/details/8963356.sHtML
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：m.cpnsxt.asia/Article/details/0019125.sHtML
+
+原标题：golang 批量任务协程控制防雪崩
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：m.cpnsxt.asia/Article/details/3473596.sHtML
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：m.cpnsxt.asia/Article/details/0096013.sHtML
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：m.cpnsxt.asia/Article/details/3688888.sHtML
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：m.cpnsxt.asia/Article/details/9031252.sHtML
+
+原标题：从零搭建简单CLI命令行工具
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：m.cpnsxt.asia/Article/details/4891114.sHtML
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：m.cpnsxt.asia/Article/details/9567700.sHtML
+
+原标题：golang docker 网络模式桥接 host
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：m.cpnsxt.asia/Article/details/3779899.sHtML
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：m.cpnsxt.asia/Article/details/1376880.sHtML
+
+原标题：golang 系统设计故障演练简单落地思路方法论
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：m.cpnsxt.asia/Article/details/3255190.sHtML
+
+原标题：效率笔记：调试网络请求curl命令高级用法
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：m.cpnsxt.asia/Article/details/8740295.sHtML
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：m.cpnsxt.asia/Article/details/8711809.sHtML
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：m.cpnsxt.asia/Article/details/2156660.sHtML
+
+原标题：排错：前端缓存304异常更新不及时
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：m.cpnsxt.asia/Article/details/2678731.sHtML
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：m.cpnsxt.asia/Article/details/7145588.sHtML
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.cpnsxt.asia/Article/details/8043533.sHtML
+
+原标题：数据库死锁成因规避方案
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：m.cpnsxt.asia/Article/details/9817908.sHtML
+
+原标题：golang 系统设计最小权限原则落地实践
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：m.cpnsxt.asia/Article/details/7618677.sHtML
+
+原标题：效率笔记：调试网络请求curl命令高级用法
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：m.cpnsxt.asia/Article/details/7500797.sHtML
+
+原标题：golang mysql 连接泄漏检测方法
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：m.cpnsxt.asia/Article/details/4466798.sHtML
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：m.cpnsxt.asia/Article/details/0923123.sHtML
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：m.cpnsxt.asia/Article/details/0918587.sHtML
+
+原标题：golang redis 主从复制哨兵原理
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：m.cpnsxt.asia/Article/details/2144677.sHtML
+
+原标题：golang 系统设计数据库基准压测简单思路
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：m.cpnsxt.asia/Article/details/7639691.sHtML
+
+原标题：Practice：实现业务唯一流水号生成组件实践
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：m.cpnsxt.asia/Article/details/2254142.sHtML
+
+原标题：golang mysql 长连接短连接对比
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：m.cpnsxt.asia/Article/details/3696665.sHtML
+
+原标题：OpenSource：开源项目README高质量编写指南
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：m.cpnsxt.asia/Article/details/8710635.sHtML
+
+原标题：GET POST 接口请求参数处理
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：m.cpnsxt.asia/Article/details/5476921.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Debug：网关超时时间小于后端接口超时设置
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：m.cpnsxt.asia/Article/details/0023522.sHtML
+
+原标题：性能笔记：避免频繁创建销毁对象GC优化
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：m.cpnsxt.asia/Article/details/5453588.sHtML
+
+原标题：golang grafana 面板变量模板制作
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：m.cpnsxt.asia/Article/details/7696785.sHtML
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：m.cpnsxt.asia/Article/details/7698097.sHtML
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/6585685.sHtML
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：m.cpnsxt.asia/Article/details/2240290.sHtML
+
+原标题：数据库索引重建提升查询速度
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：m.cpnsxt.asia/Article/details/2122234.sHtML
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：m.cpnsxt.asia/Article/details/7029189.sHtML
+
+原标题：golang elasticsearch 索引设计思路
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：m.cpnsxt.asia/Article/details/3507912.sHtML
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：m.cpnsxt.asia/Article/details/4307857.sHtML
+
+原标题：快速入门异步编程基础模型
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/8741524.sHtML
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：m.cpnsxt.asia/Article/details/0688022.sHtML
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：m.cpnsxt.asia/Article/details/5585896.sHtML
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：m.cpnsxt.asia/Article/details/0917786.sHtML
+
+原标题：golang redis zset 排行榜业务实现
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：m.cpnsxt.asia/Article/details/7700897.sHtML
+
+原标题：Cookie 跨环境登录配置调整
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：m.cpnsxt.asia/Article/details/6987899.sHtML
+
+原标题：任务执行锁防止并发重复调度
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：m.cpnsxt.asia/Article/details/6566678.sHtML
+
+原标题：入门实践：本地简单代理服务搭建
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：m.cpnsxt.asia/Article/details/2385071.sHtML
+
+原标题：nodejs 跨域中间件配置细节
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：m.cpnsxt.asia/Article/details/4922192.sHtML
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.cpnsxt.asia/Article/details/6584643.sHtML
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：m.cpnsxt.asia/Article/details/0939312.sHtML
+
+原标题：golang 系统设计分布式配置中心思路
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：m.cpnsxt.asia/Article/details/4465979.sHtML
+
+原标题：golang mock 单元测试编写技巧
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：m.cpnsxt.asia/Article/details/1362460.sHtML
+
+原标题：golang aes 对称加密解密示例
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：m.cpnsxt.asia/Article/details/1031423.sHtML
+
+原标题：入门实践：项目配置文件多环境管理方案
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：m.cpnsxt.asia/Article/details/5463463.sHtML
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：m.cpnsxt.asia/Article/details/7695778.sHtML
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/9832312.sHtML
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：m.cpnsxt.asia/Article/details/1021291.sHtML
+
+原标题：日志输出规范防止磁盘爆满
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：m.cpnsxt.asia/Article/details/4363046.sHtML
+
+原标题：读懂开源项目 README 实用技巧
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：m.cpnsxt.asia/Article/details/8788004.sHtML
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：m.cpnsxt.asia/Article/details/8728078.sHtML
+
+原标题：golang 系统设计对象池复用减少内存分配
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：m.cpnsxt.asia/Article/details/8389667.sHtML
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.cpnsxt.asia/Article/details/8796756.sHtML
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：m.cpnsxt.asia/Article/details/8234889.sHtML
+
+原标题：文件锁正确使用避免死锁
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：m.cpnsxt.asia/Article/details/7119214.sHtML
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：m.cpnsxt.asia/Article/details/8836504.sHtML
+
+原标题：golang 系统设计日志脱敏敏感字段过滤处理
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：m.cpnsxt.asia/Article/details/9830192.sHtML
+
+原标题：入门实践：简单批量处理脚本编写
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：m.cpnsxt.asia/Article/details/9706858.sHtML
+
+原标题：从零搭建简单定时任务demo
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：m.cpnsxt.asia/Article/details/4487567.sHtML
+
+原标题：Shell 脚本自动化命令编写
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：m.cpnsxt.asia/Article/details/7800206.sHtML
+
+三、实战开发｜Practice
+原标题：golang 系统设计灰度发布实现思路
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.cpnsxt.asia/Article/details/0930969.sHtML
+
+原标题：golang base64 编码解码实操
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：m.cpnsxt.asia/Article/details/7601335.sHtML
+
+原标题：前端国际化多语言方案落地
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：m.cpnsxt.asia/Article/details/0346657.sHtML
+
+原标题：安全复盘：业务数据脱敏防止泄露实践
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：m.cpnsxt.asia/Article/details/3435798.sHtML
+
+原标题：golang redis 缓存穿透解决方案
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：m.cpnsxt.asia/Article/details/9899000.sHtML
+
+原标题：css 动画性能优化 GPU 加速
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：m.cpnsxt.asia/Article/details/2156675.sHtML
+
+原标题：Hands‑on：简易反向代理中间件实现
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：m.cpnsxt.asia/Article/details/0941203.sHtML
+
+原标题：golang 系统设计多级缓存架构落地
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：m.cpnsxt.asia/Article/details/4368577.sHtML
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：m.cpnsxt.asia/Article/details/0912897.sHtML
+
+原标题：重复提交幂等防护再次讲解
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：m.cpnsxt.asia/Article/details/4813908.sHtML
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：m.cpnsxt.asia/Article/details/4491790.sHtML
+
+原标题：golang 系统设计数据库迁移工具 go‑migrate 实操
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：m.cpnsxt.asia/Article/details/8445468.sHtML
+
+原标题：golang 系统设计排行榜几种实现
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：m.cpnsxt.asia/Article/details/7921324.sHtML
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：m.cpnsxt.asia/Article/details/8723014.sHtML
+
+原标题：缓存基础原理与简单代码实现
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：m.cpnsxt.asia/Article/details/8707349.sHtML
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：m.cpnsxt.asia/Article/details/5463015.sHtML
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：m.cpnsxt.asia/Article/details/1246291.sHtML
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：m.cpnsxt.asia/Article/details/3256579.sHtML
+
+原标题：golang 时间时区处理避坑指南
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：m.cpnsxt.asia/Article/details/2279857.sHtML
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.cpnsxt.asia/Article/details/7813013.sHtML
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：m.cpnsxt.asia/Article/details/0475646.sHtML
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：m.cpnsxt.asia/Article/details/5690019.sHtML
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/4880911.sHtML
+
+原标题：golang 系统设计布隆过滤器原理与落地
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：m.cpnsxt.asia/Article/details/0015114.sHtML
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：m.cpnsxt.asia/Article/details/6597692.sHtML
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：m.cpnsxt.asia/Article/details/7607304.sHtML
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：m.cpnsxt.asia/Article/details/4385025.sHtML
+
+原标题：快速入门简单签名校验实现思路
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：m.cpnsxt.asia/Article/details/8734225.sHtML
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：m.cpnsxt.asia/Article/details/9811857.sHtML
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：m.cpnsxt.asia/Article/details/1346667.sHtML
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：m.cpnsxt.asia/Article/details/1554334.sHtML
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：m.cpnsxt.asia/Article/details/8720070.sHtML
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：m.cpnsxt.asia/Article/details/7696967.sHtML
+
+原标题：Troubleshooting：数据库主从延迟带来查询数据不一致
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：m.cpnsxt.asia/Article/details/5490968.sHtML
+
+原标题：快速入门对象存储基础使用场景
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：m.cpnsxt.asia/Article/details/3278463.sHtML
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：m.cpnsxt.asia/Article/details/4355534.sHtML
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：m.cpnsxt.asia/Article/details/5919002.sHtML
+
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：m.cpnsxt.asia/Article/details/4369990.sHtML
+
+原标题：golang 系统设计分布式锁选型对比
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/2166747.sHtML
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：m.cpnsxt.asia/Article/details/7789529.sHtML
+
+四、架构设计｜Architecture
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：m.cpnsxt.asia/Article/details/1258469.sHtML
+
+原标题：golang 结构体 json 序列化坑点
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：m.cpnsxt.asia/Article/details/7685469.sHtML
+
+原标题：CI 构建缓存加速编译速度
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：m.cpnsxt.asia/Article/details/7898461.sHtML
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：m.cpnsxt.asia/Article/details/5468468.sHtML
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：m.cpnsxt.asia/Article/details/9802072.sHtML
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.cpnsxt.asia/Article/details/7693019.sHtML
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：m.cpnsxt.asia/Article/details/0025180.sHtML
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：m.cpnsxt.asia/Article/details/7586457.sHtML
+
+原标题：golang 系统设计海量数据分页查询
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：m.cpnsxt.asia/Article/details/5613012.sHtML
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：m.cpnsxt.asia/Article/details/1365667.sHtML
+
+原标题：golang 系统设计死信队列 dlq 业务落地完整流程
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：m.cpnsxt.asia/Article/details/5991023.sHtML
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：m.cpnsxt.asia/Article/details/1322321.sHtML
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.cpnsxt.asia/Article/details/8255141.sHtML
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：m.cpnsxt.asia/Article/details/8913242.sHtML
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.cpnsxt.asia/Article/details/4464046.sHtML
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：m.cpnsxt.asia/Article/details/7022334.sHtML
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/4097981.sHtML
+
+原标题：golang csv 读写批量数据处理
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.cpnsxt.asia/Article/details/1023935.sHtML
+
+?
